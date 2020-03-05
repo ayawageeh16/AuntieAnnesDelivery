@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="loginViewModel" type="com.simpletouch.auntieannesdelivery.view.view.user.login.LoginViewModel"/>
+        <variable name="loginEventListener" type="com.simpletouch.auntieannesdelivery.view.listener.LoginEventListener" />
+    </data>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".view.view.user.login.LoginActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/layer_594_copy_2"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/phone_number"
+            app:boxStrokeColor="@color/color_white"
+            app:startIconDrawable="@drawable/ic_smartphone"
+            app:startIconTint="@color/gray"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            isErrorEnabled="@{loginViewModel.userInputValidation.isError}"
+            errorText="@{loginViewModel.userInputValidation.phoneNumberError}"
+            app:hintTextColor="@color/color_white"
+            android:textColorHint="@color/color_white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="01234567891"
+                android:inputType="phone"
+                android:backgroundTint="@android:color/transparent"
+                android:maxLength="11"
+                android:text="@={loginViewModel.loginParams.phoneNumber}"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/password"
+            app:boxStrokeColor="@color/gray"
+            app:startIconDrawable="@drawable/ic_lock"
+            app:startIconTint="@color/gray"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/gray"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            isErrorEnabled="@{loginViewModel.userInputValidation.isError}"
+            errorText="@{loginViewModel.userInputValidation.passwordError}"
+            android:textColorHint="@color/color_white"
+            app:hintTextColor="@color/color_white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:backgroundTint="@android:color/transparent"
+                android:text="@={loginViewModel.loginParams.password}"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:text="@string/login"
+            android:layout_gravity="center"
+            android:hint="@string/password"
+            android:onClick="@{()-> loginEventListener.onSignInButtonClicked()}"
+            android:background="@drawable/button_background"
+            app:cornerRadius="24dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/forget_password_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:textColor="@color/color_white"
+            android:text="@string/forget_password_text"
+            android:onClick="@{()-> loginEventListener.onForgetPasswordClicked()}"
+            android:textAllCaps="false"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
+</layout>

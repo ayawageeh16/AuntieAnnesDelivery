@@ -1,0 +1,46 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/curve_view_top"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:background="@color/colorPrimary"
+            android:rotation="180">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginRight="-50dp">
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/dialogTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_person_pin_circle_white_24dp"
+            android:textSize="17sp"
+            android:text="@string/sort_result_by"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</layout>

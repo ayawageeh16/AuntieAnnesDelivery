@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AuntieAnnesDelivery</string>
+
+    <!-- Login Activity -->
+    <string name="Username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Sign In</string>
+    <string name="password">Password</string>
+
+    <!-- Orders RecyclerView -->
+    <string name="order_status">Orders status :</string>
+    <string name="rate">Rate</string>
+    <string name="no_orders">No orders.</string>
+    <string name="order_number">Orders Number :</string>
+    <string name="total_order_txt">Total</string>
+    <string name="order_ref">Orders Ref. :</string>
+
+    <!-- Forget Password Activity -->
+    <string name="forget_password_text">Forget Password?</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="resend_code">Haven\'t received the code yet?
+        <b>
+            <u>Resend Code!</u>
+        </b>
+    </string>
+    <string name="confirm_new_pass">Confirm new password</string>
+    <string name="new_password">New password</string>
+    <string name="change_password">Change Password</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="branch_name">Brand Name</string>
+    <string name="address">Address</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="sort_result_by">Sort Results By</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="please_allow_access_location">AuntieAnne\'s Delivery app needs Location permission
+        to allow tracking funcitionality working properly. Please allow the app to access your
+        location.
+    </string>
+    <string name="please_allow_access_location_on_background">AuntieAnne\'s Delivery app must have
+        all-the-time access to location in order to function properly. Please allow location
+        background access.
+    </string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="location_updated">Location updated</string>
+
+</resources>

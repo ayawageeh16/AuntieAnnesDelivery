@@ -1,0 +1,335 @@
+{
+  "project_info": {
+    "project_number": "149301000535",
+    "firebase_url": "https://dobite-1516304293730.firebaseio.com",
+    "project_id": "dobite-1516304293730",
+    "storage_bucket": "dobite-1516304293730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149301000535:android:71f4f4fd130c1b03",
+        "android_client_info": {
+          "package_name": "com.dobite.simpletouch.dobite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149301000535-7oerc2f4hupkc3u33mnqsuf3okffsgrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dobite.simpletouch.dobite",
+            "certificate_hash": "f33c13ac10011d650f0acaf2b1cee33be4169014"
+          }
+        },
+        {
+          "client_id": "149301000535-2tlmndri9ootnkl3tk1pmrmsuk4mul1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dobite.simpletouch.dobite",
+            "certificate_hash": "718f81012ebfee85cf026a6175f5eaa02406c712"
+          }
+        },
+        {
+          "client_id": "149301000535-e5hrf5n6cu7ufr32ovpvlg5bfb74fgks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dobite.simpletouch.dobite",
+            "certificate_hash": "b393a9a801e9b2760953b9d77a0d211f8692a53a"
+          }
+        },
+        {
+          "client_id": "149301000535-ddev0j0f54p8nkho2u7ldmab33osjbt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dobite.simpletouch.dobite",
+            "certificate_hash": "16177202b10d9a5aacbdeef8a090ee3752a56dfd"
+          }
+        },
+        {
+          "client_id": "149301000535-2al5nvq7f2d3qhqvslpmii9v40d6o1jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dobite.simpletouch.dobite",
+            "certificate_hash": "56afefd750cfa77c17f827faf1fa80ceca081ec5"
+          }
+        },
+        {
+          "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPEVGFYiAAw1mgfP5GXG-YLnvv07-OKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149301000535-h00kk3ghan36iu7pbe6t5hq5tup890d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.simpletouch.Ardoor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149301000535:android:88fb44acf31cfa92f3e612",
+        "android_client_info": {
+          "package_name": "com.simpletouch.ardoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149301000535-bdehcirgbn3mb6vq90b2fmmc4hun8dd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.ardoor",
+            "certificate_hash": "f33c13ac10011d650f0acaf2b1cee33be4169014"
+          }
+        },
+        {
+          "client_id": "149301000535-vt590aqptdmst9vvjj1ttpqt40p2obhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.ardoor",
+            "certificate_hash": "16177202b10d9a5aacbdeef8a090ee3752a56dfd"
+          }
+        },
+        {
+          "client_id": "149301000535-ncfjfr8sh73u2qua3h45qjh3jtn64fl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.ardoor",
+            "certificate_hash": "b393a9a801e9b2760953b9d77a0d211f8692a53a"
+          }
+        },
+        {
+          "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPEVGFYiAAw1mgfP5GXG-YLnvv07-OKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149301000535-h00kk3ghan36iu7pbe6t5hq5tup890d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.simpletouch.Ardoor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149301000535:android:b40f0e574bdefc87",
+        "android_client_info": {
+          "package_name": "com.simpletouch.auntieannes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149301000535-jvqhq1tel020ohlgmf77gv9f25e552vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.auntieannes",
+            "certificate_hash": "16177202b10d9a5aacbdeef8a090ee3752a56dfd"
+          }
+        },
+        {
+          "client_id": "149301000535-1fj2obrj5iqo9fuhqlgg15lkklmgcokl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.auntieannes",
+            "certificate_hash": "b393a9a801e9b2760953b9d77a0d211f8692a53a"
+          }
+        },
+        {
+          "client_id": "149301000535-esktc1sm1b3kcrq2gj1q8c33b9a03n7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.auntieannes",
+            "certificate_hash": "c7a7a668ce585479eab7892bf11c3a06a627197c"
+          }
+        },
+        {
+          "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPEVGFYiAAw1mgfP5GXG-YLnvv07-OKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149301000535-h00kk3ghan36iu7pbe6t5hq5tup890d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.simpletouch.Ardoor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149301000535:android:1b1b54e3e5767906f3e612",
+        "android_client_info": {
+          "package_name": "com.simpletouch.business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149301000535-1s3g0baculu72b2gsle4hmic0domt3d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.business",
+            "certificate_hash": "16177202b10d9a5aacbdeef8a090ee3752a56dfd"
+          }
+        },
+        {
+          "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPEVGFYiAAw1mgfP5GXG-YLnvv07-OKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149301000535-h00kk3ghan36iu7pbe6t5hq5tup890d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.simpletouch.Ardoor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149301000535:android:43857478758c21e8",
+        "android_client_info": {
+          "package_name": "com.simpletouch.dobite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149301000535-tgjkpis8g5d61jt410orshvlsekf7bqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "f33c13ac10011d650f0acaf2b1cee33be4169014"
+          }
+        },
+        {
+          "client_id": "149301000535-v7lvp7la79ru2ku834kogltd9ak2t1ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "718f81012ebfee85cf026a6175f5eaa02406c712"
+          }
+        },
+        {
+          "client_id": "149301000535-6b30hic4vhh14qp3hv06tchmticcj2k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "b393a9a801e9b2760953b9d77a0d211f8692a53a"
+          }
+        },
+        {
+          "client_id": "149301000535-rnv73hgih991lteupnqpk42ni07hi882.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "16177202b10d9a5aacbdeef8a090ee3752a56dfd"
+          }
+        },
+        {
+          "client_id": "149301000535-fuo4ee5upailv11b6qgqf5e57278cra4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "c7a7a668ce585479eab7892bf11c3a06a627197c"
+          }
+        },
+        {
+          "client_id": "149301000535-4is3c44m8eq7kb32npbd7jm677sv8cko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpletouch.dobite",
+            "certificate_hash": "926cbefe4bc018544312e48476860928c2452afc"
+          }
+        },
+        {
+          "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkPEVGFYiAAw1mgfP5GXG-YLnvv07-OKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149301000535-3kgl82ljnh0q7sammsl3mtlt3enquncj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149301000535-h00kk3ghan36iu7pbe6t5hq5tup890d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.simpletouch.Ardoor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
