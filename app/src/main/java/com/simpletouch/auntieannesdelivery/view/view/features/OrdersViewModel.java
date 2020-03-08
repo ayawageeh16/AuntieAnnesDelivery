@@ -1,6 +1,8 @@
 package com.simpletouch.auntieannesdelivery.view.view.features;
 
 import android.app.Application;
+import android.os.Parcel;
+import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.Bindable;
@@ -24,6 +26,7 @@ public class OrdersViewModel extends BaseObservableViewModel {
         orderFireBaseRepository = new OrderFireBaseRepository();
     }
 
+
     public void createOrderNodeInFirebase(OrderDelivery orderDelivery) {
         orderFireBaseRepository.addNewNodeToFirebaseDatabase(orderDelivery);
     }
@@ -45,6 +48,5 @@ public class OrdersViewModel extends BaseObservableViewModel {
         this.ordersList = orders;
         notifyChange(BR.ordersList);
     }
-
 
 }

@@ -43,13 +43,11 @@
         <activity android:name=".view.view.home.HomeFragment" />
         <activity android:name=".view.view.MainActivity" />
 
-        <!-- Foreground services in Q+ require type. -->
         <service
-            android:name=".view.view.features.LocationUpdatesService"
+            android:name=".view.utils.LocationUpdatesService"
             android:enabled="true"
             android:exported="true"
-            android:foregroundServiceType="location" />
-
+            android:foregroundServiceType="location"></service>
     </application>
 
 </manifest>

@@ -15,6 +15,7 @@ public class BaseObservableViewModel extends AndroidViewModel implements Observa
 
     private PropertyChangeRegistry mCalbacks;
 
+
     public BaseObservableViewModel(@NonNull Application application) {
         super(application);
         mCalbacks = new PropertyChangeRegistry();

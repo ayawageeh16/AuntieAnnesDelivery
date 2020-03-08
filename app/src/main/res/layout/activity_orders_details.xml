@@ -3,12 +3,18 @@
     <data>
         <import type="com.simpletouch.auntieannesdelivery.view.utils.NumbersUtils"/>
         <variable name="order" type="com.simpletouch.entities.model.Order" />
+        <variable name="orderDetailsListener" type="com.simpletouch.auntieannesdelivery.view.listener.OrderDetailsListener" />
+
     </data>
 
-<androidx.appcompat.widget.LinearLayoutCompat
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -102,6 +108,24 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_delivery"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:onClick="@{()-> orderDetailsListener.onStartDeliveryClicked()}"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_delivery"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:onClick="@{()-> orderDetailsListener.onStopDeliveryClicked()}"
+        android:layout_marginBottom="24dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
 
 </layout>

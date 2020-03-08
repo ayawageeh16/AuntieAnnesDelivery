@@ -75,7 +75,6 @@ public class DataBindingAdapter {
         }
     }
 
-
     /**
      *
      * This Method Displays The String URL Into The ImageView Using Glide, If Founded Else It Displays The PlaceHolder Image From The Drawable File,
@@ -96,7 +95,6 @@ public class DataBindingAdapter {
             Glide.with(view.getContext()).setDefaultRequestOptions(requestOptions).load(imageURL).into(view);
         }
     }
-
 
     /**
      * This Method Converts Date And Time Of String To 'yyyy-MM-dd'T'hh:mm:ss' Format And Set It To the TextView
